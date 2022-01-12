@@ -19,7 +19,7 @@ const Header = props => (
         </nav>
         <div className="center">
             <p>Olá! Meu nome é <span>Pedro Antônio</span></p>
-            <h1>Estudante de Engenharia da Computação e Desenvolver Web</h1>
+            <h1>Estudante de Engenharia da Computação e Desenvolvedor Web</h1>
             <div className="btn">
                 <a href={Curriculo}>Baixar Curriculo</a>
             </div>

@@ -1,0 +1,64 @@
+.Footer{
+    background-color: #0a0c21;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    color:   #8899a6;
+    width: 100%;
+    margin: auto;
+}
+
+.contato{
+    width: 50%;
+    text-align: center;
+}
+
+.contato p{
+    font-size: 18px;
+}
+
+
+.Footer h1{
+    font-size: 50px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.social-medias {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.social-medias a{
+    padding: 30px;
+    color: #8899a6;
+    width: 100%;
+    font-size: 30px;
+}
+
+
+.social-medias a:hover{
+    color: #8f3d8f;
+}
+
+
+@media screen and (max-width: 768px){
+  .Footer{
+        display: block;
+  }
+
+  .contato{
+      width: 100%;
+  }
+
+  .social-medias{
+      width: 100%;
+      
+  }
+}
+
