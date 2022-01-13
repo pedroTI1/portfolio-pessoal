@@ -30,7 +30,8 @@
     text-align: left;
     background: #8f3d8f;
     padding: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    font-size: max(10px,0.9vw)
 }
 
 @media screen and (max-width: 1280px){
@@ -39,4 +40,7 @@
         width: 100%;
     }
 }
+
+
+
   
