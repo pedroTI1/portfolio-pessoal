@@ -1,7 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .Projeto{
-    width: 100%;
     color: #8899a6;
     font-family: 'poppins', sans-serif;
+    margin: 50px 0 100px 0; 
+
 }
+
+.Projeto .center {
+    display: flex;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.center .content {
+    padding: 0 50px;
+    width: 100%;
+   
+}
+
+
+
+.center .img-projeto {
+    width: 100%;
+}
+
+.center .img-projeto img{
+   width: 100%;
+}
+
+.content a{
+    color: #8899a6;
+    width: 100%;
+    font-size: 30px;
+}
+
+.content p{
+    font-size: 16px;
+}
+
+
+.content a:hover{
+    color: #8f3d8f;
+}
+
+@media screen and (max-width: 1280px){
+    .Projeto .center{
+        display: block;
+        width: 100%;
+    }
+
+    .center .content{
+        text-align: center;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+    .center .img-projeto {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .center .img-projeto img{
+        width: 50%;
+    
+    }
+}
+  

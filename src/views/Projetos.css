@@ -1,7 +1,10 @@
 
 .Projetos{
     background-color:#030518;
+    width: 100%;
+    
 }
+
 
 .Projetos h1{
     width: 50%;
@@ -9,4 +12,31 @@
     margin-right: auto;
     text-align: left;
     color: #8899a6;
+    font-size: 40px;
 }
+
+.Projetos .btn-portfolio{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.Projetos .btn-portfolio a{
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    background: #8f3d8f;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+@media screen and (max-width: 1280px){
+    .Projetos h1{
+        text-align: center;
+        width: 100%;
+    }
+}
+  

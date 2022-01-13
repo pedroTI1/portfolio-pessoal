@@ -4,20 +4,24 @@ import './Projeto.css'
 
 const Projeto = props => (
     <main className="Projeto">
-            <div className="box">
-                <div className="content">
-                    {props.title ?
-                        <h3>{props.title}</h3>
-                        : <h3>Projeto</h3>
-                    }
-                      {props.description ?
-                        <p>{props.description}</p>
-                        : <p>Projeto pessoal</p>
-                    }
-                    <a href="#" target="_blank" rel="noreferrer">GITHUB</a>
-                </div>
+        <div className="center">
+            <div className="img-projeto">
+                <img src={props.image} alt="Imagem do Projeto" />
             </div>
-    </main>
+            <div className="content">
+
+                {props.title ?
+                    <h2>{props.title}</h2>
+                    : <h3>Projeto</h3>
+                }
+                {props.description ?
+                    <p>{props.description}</p>
+                    : <p>Projeto pessoal</p>
+                }
+                <a href={props.link} target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </div>
+    </main >
 )
 
 
