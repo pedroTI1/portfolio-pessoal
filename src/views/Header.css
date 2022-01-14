@@ -36,11 +36,12 @@
 
 
 .center{
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
     width: 50%;
+    margin-top: 100px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .center .btn{
@@ -49,7 +50,7 @@
 
 
 .center p{
-    font-size: 20px;
+    font-size: clamp(0.5em, 0.5em + 1vw, 1.3em);
 }
 
 
@@ -71,20 +72,24 @@
 }
 
 .center h1{
-    font-size: max(25px,3.2vw);
+    font-size: clamp(2em, 1em + 3vw, 4.5em);
+    font-weight: 300;
+    line-height: 1.2;
 }
 
 
 
 
 @media screen and (max-width: 768px){
+
+    .Header{
+        text-align: center;
+    }
+
     .header-nav{
         display: block;
     }
     
-    .header-nav h2{
-        text-align: center;
-    }
 
     .header-nav .navbar{
         widows: 100%;
@@ -92,14 +97,15 @@
 
     .header-nav .navbar li{
         display: block;
-        text-align: center;
         padding-left: 0;
         margin: 10px;
         
     }
-   
- 
-    
+    .center{
+        width: 100%;
+        text-align: center;
+    }
+     
 }
   
   
