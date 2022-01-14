@@ -4,7 +4,7 @@ import './Header.css'
 
 
 
-import Curriculo from '../assets/cv__PedroAntonio.pdf'
+import Curriculo from '../assets/PedroAntonio_cv.pdf'
 
 
 const Header = (props) => {
