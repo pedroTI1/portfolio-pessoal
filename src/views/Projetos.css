@@ -31,7 +31,7 @@
     background: #8f3d8f;
     padding: 10px;
     border-radius: 10px;
-    font-size: max(10px,0.9vw)
+    font-size: max(8px,0.9vw)
 }
 
 @media screen and (max-width: 1280px){

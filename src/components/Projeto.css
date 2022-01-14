@@ -9,7 +9,7 @@
 
 .Projeto .center {
     display: flex;
-    width: 50%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -17,18 +17,19 @@
 
 .center .content {
     padding: 0 50px;
-    width: 100%;
+    width: 25%;
    
 }
 
 
 
 .center .img-projeto {
-    width: 100%;
+    width: 50%;
+    text-align: right;
 }
 
 .center .img-projeto img{
-   width: 100%;
+   width: 50%;
 }
 
 .content a{
@@ -61,14 +62,14 @@
     
     
     .center .img-projeto {
-        width: 100%;
+        width: 50%;
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
 
     .center .img-projeto img{
-        width: 80%;
+        width: 100%;
     
     }
 }
