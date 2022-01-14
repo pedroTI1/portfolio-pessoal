@@ -8,10 +8,13 @@ import Projetos from './views/Projetos'
 
 
 
-export default () => (
+const App = (props) => (
       <div className="App">
             <Header />
             <Projetos/>
             <Footer/>
       </div>
 )
+
+
+export default App
