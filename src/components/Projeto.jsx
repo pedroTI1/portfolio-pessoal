@@ -6,10 +6,9 @@ const Projeto = props => (
     <main className="Projeto">
         <div className="center">
             <div className="img-projeto">
-                <img src={props.image} alt="Imagem do Projeto" />
+                <img src={props.image} alt="Imagem do Projeto" /> 
             </div>
             <div className="content">
-
                 {props.title ?
                     <h2>{props.title}</h2>
                     : <h3>Projeto</h3>

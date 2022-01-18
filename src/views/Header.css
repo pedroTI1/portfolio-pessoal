@@ -69,6 +69,7 @@
     background: #8f3d8f;
     padding: 10px;
     border-radius: 10px; 
+    font-size: max(14px,0.9vw);
 }
 
 .center h1{
@@ -101,9 +102,9 @@
         margin: 10px;
         
     }
+
     .center{
         width: 100%;
-        text-align: center;
     }
      
 }

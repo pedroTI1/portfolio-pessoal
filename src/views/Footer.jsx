@@ -7,7 +7,7 @@ const Footer = props => (
     <div id = "contato" className="Footer">
         <div className="contato">
             <h1>Entre em contato</h1>
-            <p>pedro.antonio@estudante.iftm.edu.br</p>
+            <p>devpedroantonio@gmail.com</p>
             <p>Uberaba - MG</p>
         </div>
         <div className="social-medias">
