@@ -8,11 +8,14 @@
 
 .header-nav{
     display: flex;
+    align-items: center;
 }
+
+
 
 .header-nav ul{
     padding: 0;
-    margin: 25px 50px;
+    margin: 0 50px;
 
 }
 
@@ -78,6 +81,11 @@
     line-height: 1.2;
 }
 
+.icon-mobile{
+    font-size: 40px;
+    display: none;
+}
+
 
 
 
@@ -88,12 +96,25 @@
     }
 
     .header-nav{
-        display: block;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
     }
     
 
     .header-nav .navbar{
-        widows: 100%;
+        display: none;
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        left: 50%;
+        margin-left: -80px;
+        top: 40px;
+    }
+
+    .navbar.active {
+        display: flex;
+
     }
 
     .header-nav .navbar li{
@@ -106,6 +127,11 @@
     .center{
         width: 100%;
     }
+
+    .icon-mobile{
+        display: block;
+    }
+
      
 }
   
