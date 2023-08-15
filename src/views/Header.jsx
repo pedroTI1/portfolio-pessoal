@@ -23,10 +23,6 @@ const Header = (props) => {
         
     }
    
-
-
-    
-
     return (
         <main id="header" className="Header">
             <div className="header-nav">
@@ -42,7 +38,7 @@ const Header = (props) => {
             </div>
             <div className="center">
                 <p>Olá! Meu nome é <span>Pedro Antônio</span></p>
-                <h1>Estudante de Engenharia da Computação e Desenvolvedor Web</h1>
+                <h1>Desenvolvedor Back End</h1>
                 <div className="btn">
                     <a href={Curriculo}>Ver Currículo</a>
                 </div>
